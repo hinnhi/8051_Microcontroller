@@ -1,4 +1,19 @@
-lettura;
-  jnb ri,$ 
+org 0000h
 
-  
+x equ R0
+y equ R1
+
+mov x, #20
+mov y, #3
+
+lettura:
+  jnb ri, $ 
+
+  mov A, SBUF
+  clr ri
+  jnb ri, $
+
+  mov B, SBUF
+  clr ri
+
+  add A, B
