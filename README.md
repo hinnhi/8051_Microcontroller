@@ -1,6 +1,14 @@
 # 8051 Micro-controller
 The C51ASM assembler is a two-pass macro assembler for the AT89 Family of 8051 microcontrollers with specific features for the AT89LP single-cycle devices. C51ASM is installed as a part of the AT89LP Developer Studio. It is also available separately for the Microsoft Windows and Linux platforms.
 
+### Setup
+-  Install Windows98 on VMware
+-  set XX/01/2000
+-  C:\Program Files\Lattice Semiconductor\ispSynario Starter\
+
+in my case:
+  ABEL-HDL (.abl) → Compilatore Synario → JEDEC (.jed) → GAL16V8
+  
 ## [AT89S52](https://ww1.microchip.com/downloads/en/DeviceDoc/doc1919.pdf) from Atmel
 The [8051 architecture](https://en.wikipedia.org/wiki/MCS-51) was created by Intel in the last 70's. Ok, it's an old architecture, but very simple to understand, and easy to use. 
 This chip has the following features:
@@ -55,11 +63,3 @@ clr ri
 add A,B   ;add the result in A
 end
 ```
-
-### Setup
--  Install Windows98 on VMware
--  set XX/01/2000
--  C:\Program Files\Lattice Semiconductor\ispSynario Starter\
-
-in my case:
-  ABEL-HDL (.abl) → Compilatore Synario → JEDEC (.jed) → GAL16V8
