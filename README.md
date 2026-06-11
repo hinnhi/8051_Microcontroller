@@ -3,7 +3,7 @@ The C51ASM assembler is a two-pass macro assembler for the AT89 Family of 8051 m
 
 ### Setup
 -  Install Windows98 on VMware
--  set XX/01/2000
+-  set date: XX/01/2000
 -  C:\Program Files\Lattice Semiconductor\ispSynario Starter\
 
 in my case:
