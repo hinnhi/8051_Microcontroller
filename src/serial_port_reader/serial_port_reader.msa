@@ -17,4 +17,5 @@ lettura:
   clr ri
 
   add A, B
+
 end
