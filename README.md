@@ -60,5 +60,6 @@ end
 -  Install Windows98 on VMware
 -  set XX/01/2000
 -  C:\Program Files\Lattice Semiconductor\ispSynario Starter\
+
 in my case:
   ABEL-HDL (.abl) → Compilatore Synario → JEDEC (.jed) → GAL16V8
